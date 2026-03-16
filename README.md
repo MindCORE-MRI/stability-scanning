@@ -7,7 +7,7 @@ For more on the weekly QA protocol, see this [blog post](https://mindcore.sas.up
 ## Updated Results
 
 ### Gradient Coil Temperatures
-![Gradient temperature plot](Graphs/gradient_temps.png)
+![Gradient temperature plot](Graphs/gradient_coil_temps.png)
 
 ### 64-channel coil summary
 ![Stability plot](Graphs/64-Ch_summary.png)
