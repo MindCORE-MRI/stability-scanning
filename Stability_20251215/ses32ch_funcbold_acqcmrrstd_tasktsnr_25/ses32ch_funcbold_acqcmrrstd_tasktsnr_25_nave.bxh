@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<bxh xmlns="http://www.biac.duke.edu/bxh" xmlns:bxh="http://www.biac.duke.edu/bxh" version="1.0">
+  <datarec type="image">
+    <dimension type="x">
+      <units>mm</units>
+      <size>106</size>
+      <origin>106</origin>
+      <gap>0</gap>
+      <spacing>2</spacing>
+      <direction>-1 0 0</direction>
+    </dimension>
+    <dimension type="y">
+      <units>mm</units>
+      <size>106</size>
+      <origin>106</origin>
+      <gap>0</gap>
+      <spacing>2</spacing>
+      <direction>0 -1 0</direction>
+    </dimension>
+    <byteorder>lsbfirst</byteorder>
+    <elementtype>float32</elementtype>
+    <filename>ses32ch_funcbold_acqcmrrstd_tasktsnr_25_nave.img</filename>
+    <fileoffset>0</fileoffset>
+    <filerecordsize>44944</filerecordsize>
+  </datarec>
+  <acquisitiondata>
+    <scanner>AWP213018</scanner>
+    <psdname/>
+    <examnumber>0adb9016-f407-46</examnumber>
+    <studyid>2025.12.15-10:13:10-STD-1.3.12.2.1107.5.99.3</studyid>
+    <seriesnumber>25</seriesnumber>
+    <runnumber>1</runnumber>
+    <magneticfield>3</magneticfield>
+    <description>ses-32ch_func-bold_acq-cmrrstd_task-tsnr</description>
+    <scandate>2025-12-15</scandate>
+    <scantime>11:21:19</scantime>
+    <tr>2000</tr>
+    <te>30</te>
+    <operator/>
+    <flipangle>79</flipangle>
+    <prescribedslicespacing>2</prescribedslicespacing>
+    <frequencydirection>1</frequencydirection>
+    <receivecoilname>Head_32</receivecoilname>
+    <transmitcoilname>Body</transmitcoilname>
+    <institution>THE UNIVERSITY OF PENNSYLVANIA</institution>
+    <examdescription>ACTIVE KIRWAN</examdescription>
+    <scanner>AWP213018</scanner>
+    <scannermanufacturer>Siemens Healthineers</scannermanufacturer>
+    <scannermodelname>MAGNETOM Cima.X</scannermodelname>
+    <protocolname>ses-32ch_func-bold_acq-cmrrstd_task-tsnr</protocolname>
+    <institutionaddress>Grays Ferry Ave. BLDG 250 STE 140 3401,Philadelphia,69 - KEYSTONE,US,19146</institutionaddress>
+    <institutionaldepartmentname>MindCORE Neuroimaging Suite 140</institutionaldepartmentname>
+    <acqParam name="acquisitiondatetime" type="varchar">20251215112117.495000</acqParam>
+    <acqParam name="frametype" type="varchar">ORIGINAL</acqParam>
+    <acqParam name="pixelpresentation" type="varchar">MONOCHROME</acqParam>
+    <acqParam name="volumetricproperties" type="varchar">DISTORTED</acqParam>
+    <acqParam name="volumebasedcalculationtechnique" type="varchar">NONE</acqParam>
+    <acqParam name="compleximagecomponent" type="varchar">MAGNITUDE</acqParam>
+    <acqParam name="acquisitioncontrast" type="varchar">UNKNOWN</acqParam>
+    <acqParam name="mracquisitiontype" type="varchar">2D</acqParam>
+    <acqParam name="numaverages" type="varchar">1</acqParam>
+    <acqParam name="spacingbetweenslices" type="varchar">2</acqParam>
+    <acqParam name="echotrainlength" type="varchar">80</acqParam>
+    <acqParam name="percentsampling" type="varchar">100</acqParam>
+    <acqParam name="percentphasefieldofview" type="varchar">100</acqParam>
+    <acqParam name="scannerserialnumber" type="varchar">213018</acqParam>
+    <acqParam name="softwareversions" type="varchar">syngo MR XA61</acqParam>
+    <acqParam name="inplanephaseencodingdirection" type="varchar">COLUMN</acqParam>
+    <acqParam name="variableflipangleflag" type="varchar">N</acqParam>
+    <acqParam name="contentqualification" type="varchar">RESEARCH</acqParam>
+    <acqParam name="acquisitionduration" type="varchar">417.89499999999998</acqParam>
+    <acqParam name="resonantnucleus" type="varchar">1H</acqParam>
+    <acqParam name="applicablesafetystandardagency" type="varchar">IEC</acqParam>
+    <acqParam name="acquisitionnumber" type="varchar">1</acqParam>
+    <acqParam name="instancenumber" type="varchar">1</acqParam>
+    <acqParam name="numtemporalpositions" type="varchar">200</acqParam>
+    <acqParam name="imagecomments" type="varchar">Not for diagnostic use, Unaliased MB3/PE3/LB</acqParam>
+    <acqParam name="samplesperpixel" type="varchar">1</acqParam>
+    <acqParam name="photometricinterpretation" type="varchar">MONOCHROME2</acqParam>
+    <acqParam name="numberofframes" type="varchar">69</acqParam>
+    <acqParam name="rows" type="varchar">106</acqParam>
+    <acqParam name="columns" type="varchar">106</acqParam>
+    <acqParam name="bitsallocated" type="varchar">16</acqParam>
+    <acqParam name="bitsstored" type="varchar">16</acqParam>
+    <acqParam name="highbit" type="varchar">15</acqParam>
+    <acqParam name="lossyimagecompression" type="varchar">00</acqParam>
+  </acquisitiondata>
+  <subject>
+    <age>25</age>
+    <name>Stability_20251215</name>
+    <sex>M</sex>
+  </subject>
+  <history>
+    <entry>
+      <date>2025-12-15 17:42:40</date>
+      <description>
+        <processStep>
+          <programName>/home/fbirnqa/fbirnqa/bxh_xcede/bin/dicom2bxh</programName>
+          <programArgument>/input//IM-0015-0069.dcm /input//IM-0015-0070.dcm /input//IM-0015-0071.dcm /input//IM-0015-0072.dcm /input//IM-0015-0073.dcm /input//IM-0015-0074.dcm /input//IM-0015-0075.dcm /input//IM-0015-0076.dcm /input//IM-0015-0077.dcm /input//IM-0015-0078.dcm /input//IM-0015-0079.dcm /input//IM-0015-0080.dcm /input//IM-0015-0081.dcm /input//IM-0015-0082.dcm /input//IM-0015-0083.dcm /input//IM-0015-0084.dcm /input//IM-0015-0085.dcm /input//IM-0015-0086.dcm /input//IM-0015-0087.dcm /input//IM-0015-0088.dcm /input//IM-0015-0089.dcm /input//IM-0015-0090.dcm /input//IM-0015-0091.dcm /input//IM-0015-0092.dcm /input//IM-0015-0093.dcm /input//IM-0015-0094.dcm /input//IM-0015-0095.dcm /input//IM-0015-0096.dcm /input//IM-0015-0097.dcm /input//IM-0015-0098.dcm /input//IM-0015-0099.dcm /input//IM-0015-0100.dcm /input//IM-0015-0101.dcm /input//IM-0015-0102.dcm /input//IM-0015-0103.dcm /input//IM-0015-0104.dcm /input//IM-0015-0105.dcm /input//IM-0015-0106.dcm /input//IM-0015-0107.dcm /input//IM-0015-0108.dcm /input//IM-0015-0109.dcm /input//IM-0015-0110.dcm /input//IM-0015-0111.dcm /input//IM-0015-0112.dcm /input//IM-0015-0113.dcm /input//IM-0015-0114.dcm /input//IM-0015-0115.dcm /input//IM-0015-0116.dcm /input//IM-0015-0117.dcm /input//IM-0015-0118.dcm /input//IM-0015-0119.dcm /input//IM-0015-0120.dcm /input//IM-0015-0121.dcm /input//IM-0015-0122.dcm /input//IM-0015-0123.dcm /input//IM-0015-0124.dcm /input//IM-0015-0125.dcm /input//IM-0015-0126.dcm /input//IM-0015-0127.dcm /input//IM-0015-0128.dcm /input//IM-0015-0129.dcm /input//IM-0015-0130.dcm /input//IM-0015-0131.dcm /input//IM-0015-0132.dcm /input//IM-0015-0133.dcm /input//IM-0015-0134.dcm /input//IM-0015-0135.dcm /input//IM-0015-0136.dcm /input//IM-0015-0137.dcm /input//IM-0015-0138.dcm /input//IM-0015-0139.dcm /input//IM-0015-0140.dcm /input//IM-0015-0141.dcm /input//IM-0015-0142.dcm /input//IM-0015-0143.dcm /input//IM-0015-0144.dcm /input//IM-0015-0145.dcm /input//IM-0015-0146.dcm /input//IM-0015-0147.dcm /input//IM-0015-0148.dcm /input//IM-0015-0149.dcm /input//IM-0015-0150.dcm /input//IM-0015-0151.dcm /input//IM-0015-0152.dcm /input//IM-0015-0153.dcm /input//IM-0015-0154.dcm /input//IM-0015-0155.dcm /input//IM-0015-0156.dcm /input//IM-0015-0157.dcm /input//IM-0015-0158.dcm /input//IM-0015-0159.dcm /input//IM-0015-0160.dcm /input//IM-0015-0161.dcm /input//IM-0015-0162.dcm /input//IM-0015-0163.dcm /input//IM-0015-0164.dcm /input//IM-0015-0165.dcm /input//IM-0015-0166.dcm /input//IM-0015-0167.dcm /input//IM-0015-0168.dcm /input//IM-0015-0169.dcm /input//IM-0015-0170.dcm /input//IM-0015-0171.dcm /input//IM-0015-0172.dcm /input//IM-0015-0173.dcm /input//IM-0015-0174.dcm /input//IM-0015-0175.dcm /input//IM-0015-0176.dcm /input//IM-0015-0177.dcm /input//IM-0015-0178.dcm /input//IM-0015-0179.dcm /input//IM-0015-0180.dcm /input//IM-0015-0181.dcm /input//IM-0015-0182.dcm /input//IM-0015-0183.dcm /input//IM-0015-0184.dcm /input//IM-0015-0185.dcm /input//IM-0015-0186.dcm /input//IM-0015-0187.dcm /input//IM-0015-0188.dcm /input//IM-0015-0189.dcm /input//IM-0015-0190.dcm /input//IM-0015-0191.dcm /input//IM-0015-0192.dcm /input//IM-0015-0193.dcm /input//IM-0015-0194.dcm /input//IM-0015-0195.dcm /input//IM-0015-0196.dcm /input//IM-0015-0197.dcm /input//IM-0015-0198.dcm /input//IM-0015-0199.dcm /input//IM-0015-0200.dcm /input//IM-0015-0201.dcm /input//IM-0015-0202.dcm /input//IM-0015-0203.dcm /input//IM-0015-0204.dcm /input//IM-0015-0205.dcm /input//IM-0015-0206.dcm /input//IM-0015-0207.dcm /input//IM-0015-0208.dcm /input//IM-0015-0209.dcm /input//IM-0015-0210.dcm /input//IM-0015-0211.dcm /input//IM-0015-0212.dcm /input//IM-0015-0213.dcm /input//IM-0015-0214.dcm /input//IM-0015-0215.dcm /input//IM-0015-0216.dcm /input//IM-0015-0217.dcm /input//IM-0015-0218.dcm /input//IM-0015-0219.dcm /input//IM-0015-0220.dcm /input//IM-0015-0221.dcm /input//IM-0015-0222.dcm /input//IM-0015-0223.dcm /input//IM-0015-0224.dcm /input//IM-0015-0225.dcm /input//IM-0015-0226.dcm /input//IM-0015-0227.dcm /input//IM-0015-0228.dcm /input//IM-0015-0229.dcm /input//IM-0015-0230.dcm /input//IM-0015-0231.dcm /input//IM-0015-0232.dcm /input//IM-0015-0233.dcm /input//IM-0015-0234.dcm /input//IM-0015-0235.dcm /input//IM-0015-0236.dcm /input//IM-0015-0237.dcm /input//IM-0015-0238.dcm /input//IM-0015-0239.dcm /input//IM-0015-0240.dcm /input//IM-0015-0241.dcm /input//IM-0015-0242.dcm /input//IM-0015-0243.dcm /input//IM-0015-0244.dcm /input//IM-0015-0245.dcm /input//IM-0015-0246.dcm /input//IM-0015-0247.dcm /input//IM-0015-0248.dcm /input//IM-0015-0249.dcm /input//IM-0015-0250.dcm /input//IM-0015-0251.dcm /input//IM-0015-0252.dcm /input//IM-0015-0253.dcm /input//IM-0015-0254.dcm /input//IM-0015-0255.dcm /input//IM-0015-0256.dcm /input//IM-0015-0257.dcm /input//IM-0015-0258.dcm /input//IM-0015-0259.dcm /input//IM-0015-0260.dcm /input//IM-0015-0261.dcm /input//IM-0015-0262.dcm /input//IM-0015-0263.dcm /input//IM-0015-0264.dcm /input//IM-0015-0265.dcm /input//IM-0015-0266.dcm /input//IM-0015-0267.dcm /input//IM-0015-0268.dcm</programArgument>
+          <version>BXH utilities (1.11.14)</version>
+          <timeStamp>2025-12-15 17:42:40</timeStamp>
+          <cvs>/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_utils.cpp v1.67
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dom_utils.cpp v1.41
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dicom.cpp v1.1
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dom_utils-xerces.cpp v1.4
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_signa.c v1.49
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/utils/bxhabsorb.c v1.39
+</cvs>
+          <user>(unknown)</user>
+          <machine>(unknown)</machine>
+          <platform>(unknown)</platform>
+          <platformVersion/>
+        </processStep>
+      </description>
+    </entry>
+    <entry>
+      <date>2025-12-15 17:42:41</date>
+      <description>
+Generated on f98da2b6e903 by '/home/fbirnqa/fbirnqa/bxh_xcede/bin/fmriqa_phantomqa' (BXH utilities (1.11.14)) from 1 input args: /fbirn_out/ses32ch_funcbold_acqcmrrstd_tasktsnr_25.xml
+BXH utilities (1.11.14)</description>
+    </entry>
+  </history>
+</bxh>

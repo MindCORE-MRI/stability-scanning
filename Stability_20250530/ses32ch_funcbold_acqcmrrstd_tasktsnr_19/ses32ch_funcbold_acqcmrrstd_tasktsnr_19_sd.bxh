@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<bxh xmlns="http://www.biac.duke.edu/bxh" xmlns:bxh="http://www.biac.duke.edu/bxh" version="1.0">
+  <datarec type="image">
+    <dimension type="x">
+      <units>mm</units>
+      <size>106</size>
+      <origin>106</origin>
+      <gap>0</gap>
+      <spacing>2</spacing>
+      <direction>-1 0 0</direction>
+    </dimension>
+    <dimension type="y">
+      <units>mm</units>
+      <size>106</size>
+      <origin>106</origin>
+      <gap>0</gap>
+      <spacing>2</spacing>
+      <direction>0 -1 0</direction>
+    </dimension>
+    <byteorder>lsbfirst</byteorder>
+    <elementtype>float32</elementtype>
+    <filename>ses32ch_funcbold_acqcmrrstd_tasktsnr_19_sd.img</filename>
+    <fileoffset>0</fileoffset>
+    <filerecordsize>44944</filerecordsize>
+  </datarec>
+  <acquisitiondata>
+    <scanner>AWP213018</scanner>
+    <psdname/>
+    <examnumber>08e4f775-b893-4a</examnumber>
+    <studyid>Stability_20250530</studyid>
+    <seriesnumber>19</seriesnumber>
+    <runnumber>1-200</runnumber>
+    <scanningsequence>GR/EP</scanningsequence>
+    <sequencevariant>SK</sequencevariant>
+    <magneticfield>3</magneticfield>
+    <description>ses-32ch_func-bold_acq-cmrrstd_task-tsnr</description>
+    <scandate>2025-05-30</scandate>
+    <scantime>15:28:30</scantime>
+    <tr>2000</tr>
+    <te>30</te>
+    <operator/>
+    <flipangle>79</flipangle>
+    <prescribedslicespacing>2</prescribedslicespacing>
+    <frequencydirection>1</frequencydirection>
+    <acquisitionmatrix>106 106</acquisitionmatrix>
+    <bandwidth>192.284</bandwidth>
+    <receivecoilname>Head_32</receivecoilname>
+    <transmitcoilname>Body</transmitcoilname>
+    <institution>THE UNIVERSITY OF PENNSYLVANIA</institution>
+    <examdescription>ACTIVE KIRWAN</examdescription>
+    <scanner>AWP213018</scanner>
+    <scannermanufacturer>Siemens Healthineers</scannermanufacturer>
+    <scannermodelname>MAGNETOM Cima.X</scannermodelname>
+    <ti/>
+    <protocolname>ses-32ch_func-bold_acq-cmrrstd_task-tsnr</protocolname>
+    <institutionaddress>Grays Ferry Ave. BLDG 250 STE 140 3401,Philadelphia,69 - KEYSTONE,US,19146</institutionaddress>
+    <institutionaldepartmentname>MindCORE Neuroimaging Suite 140</institutionaldepartmentname>
+    <acqParam name="acquisitiondatetime" type="varchar">20250530152828.742500</acqParam>
+    <acqParam name="volumetricproperties" type="varchar">DISTORTED</acqParam>
+    <acqParam name="scanoptions" type="varchar">PFP/FS/PER</acqParam>
+    <acqParam name="mracquisitiontype" type="varchar">2D</acqParam>
+    <acqParam name="sequencename" type="varchar">epfid2d1_106</acqParam>
+    <acqParam name="angioflag" type="varchar">N</acqParam>
+    <acqParam name="numaverages" type="varchar">1</acqParam>
+    <acqParam name="imagingfrequency" type="varchar">123.253243</acqParam>
+    <acqParam name="imagednucleus" type="varchar">1H</acqParam>
+    <acqParam name="spacingbetweenslices" type="varchar">2</acqParam>
+    <acqParam name="numphaseencodingsteps" type="varchar">106</acqParam>
+    <acqParam name="echotrainlength" type="varchar">80</acqParam>
+    <acqParam name="percentsampling" type="varchar">100</acqParam>
+    <acqParam name="percentphasefieldofview" type="varchar">100</acqParam>
+    <acqParam name="scannerserialnumber" type="varchar">213018</acqParam>
+    <acqParam name="softwareversions" type="varchar">syngo MR XA61</acqParam>
+    <acqParam name="triggertime" type="varchar"/>
+    <acqParam name="beatrejectionflag" type="varchar">N</acqParam>
+    <acqParam name="cardiacnumberofimages" type="varchar">1</acqParam>
+    <acqParam name="inplanephaseencodingdirection" type="varchar">COL</acqParam>
+    <acqParam name="variableflipangleflag" type="varchar">N</acqParam>
+    <acqParam name="sar" type="varchar">0.01593454171485</acqParam>
+    <acqParam name="contentqualification" type="varchar">RESEARCH</acqParam>
+    <acqParam name="acquisitionnumber" type="varchar">1</acqParam>
+    <acqParam name="instancenumber" type="varchar">1</acqParam>
+    <acqParam name="numtemporalpositions" type="varchar">200</acqParam>
+    <acqParam name="imagecomments" type="varchar">Not for diagnostic use, Unaliased MB3/PE3/LB</acqParam>
+    <acqParam name="samplesperpixel" type="varchar">1</acqParam>
+    <acqParam name="photometricinterpretation" type="varchar">MONOCHROME2</acqParam>
+    <acqParam name="rows" type="varchar">106</acqParam>
+    <acqParam name="columns" type="varchar">106</acqParam>
+    <acqParam name="bitsallocated" type="varchar">16</acqParam>
+    <acqParam name="bitsstored" type="varchar">16</acqParam>
+    <acqParam name="highbit" type="varchar">15</acqParam>
+    <acqParam name="lossyimagecompression" type="varchar">00</acqParam>
+    <echonumber>0</echonumber>
+    <pixelbandwidth>1814</pixelbandwidth>
+  </acquisitiondata>
+  <subject>
+    <age>25</age>
+    <name>Stability_20250530</name>
+    <sex>M</sex>
+  </subject>
+  <history>
+    <entry>
+      <date>2025-05-30 20:15:27</date>
+      <description>
+        <processStep>
+          <programName>/home/fbirnqa/fbirnqa/bxh_xcede/bin/dicom2bxh</programName>
+          <programArgument>/input//IM-0010-0001.dcm /input//IM-0010-0002.dcm /input//IM-0010-0003.dcm /input//IM-0010-0004.dcm /input//IM-0010-0005.dcm /input//IM-0010-0006.dcm /input//IM-0010-0007.dcm /input//IM-0010-0008.dcm /input//IM-0010-0009.dcm /input//IM-0010-0010.dcm /input//IM-0010-0011.dcm /input//IM-0010-0012.dcm /input//IM-0010-0013.dcm /input//IM-0010-0014.dcm /input//IM-0010-0015.dcm /input//IM-0010-0016.dcm /input//IM-0010-0017.dcm /input//IM-0010-0018.dcm /input//IM-0010-0019.dcm /input//IM-0010-0020.dcm /input//IM-0010-0021.dcm /input//IM-0010-0022.dcm /input//IM-0010-0023.dcm /input//IM-0010-0024.dcm /input//IM-0010-0025.dcm /input//IM-0010-0026.dcm /input//IM-0010-0027.dcm /input//IM-0010-0028.dcm /input//IM-0010-0029.dcm /input//IM-0010-0030.dcm /input//IM-0010-0031.dcm /input//IM-0010-0032.dcm /input//IM-0010-0033.dcm /input//IM-0010-0034.dcm /input//IM-0010-0035.dcm /input//IM-0010-0036.dcm /input//IM-0010-0037.dcm /input//IM-0010-0038.dcm /input//IM-0010-0039.dcm /input//IM-0010-0040.dcm /input//IM-0010-0041.dcm /input//IM-0010-0042.dcm /input//IM-0010-0043.dcm /input//IM-0010-0044.dcm /input//IM-0010-0045.dcm /input//IM-0010-0046.dcm /input//IM-0010-0047.dcm /input//IM-0010-0048.dcm /input//IM-0010-0049.dcm /input//IM-0010-0050.dcm /input//IM-0010-0051.dcm /input//IM-0010-0052.dcm /input//IM-0010-0053.dcm /input//IM-0010-0054.dcm /input//IM-0010-0055.dcm /input//IM-0010-0056.dcm /input//IM-0010-0057.dcm /input//IM-0010-0058.dcm /input//IM-0010-0059.dcm /input//IM-0010-0060.dcm /input//IM-0010-0061.dcm /input//IM-0010-0062.dcm /input//IM-0010-0063.dcm /input//IM-0010-0064.dcm /input//IM-0010-0065.dcm /input//IM-0010-0066.dcm /input//IM-0010-0067.dcm /input//IM-0010-0068.dcm /input//IM-0010-0069.dcm /input//IM-0010-0070.dcm /input//IM-0010-0071.dcm /input//IM-0010-0072.dcm /input//IM-0010-0073.dcm /input//IM-0010-0074.dcm /input//IM-0010-0075.dcm /input//IM-0010-0076.dcm /input//IM-0010-0077.dcm /input//IM-0010-0078.dcm /input//IM-0010-0079.dcm /input//IM-0010-0080.dcm /input//IM-0010-0081.dcm /input//IM-0010-0082.dcm /input//IM-0010-0083.dcm /input//IM-0010-0084.dcm /input//IM-0010-0085.dcm /input//IM-0010-0086.dcm /input//IM-0010-0087.dcm /input//IM-0010-0088.dcm /input//IM-0010-0089.dcm /input//IM-0010-0090.dcm /input//IM-0010-0091.dcm /input//IM-0010-0092.dcm /input//IM-0010-0093.dcm /input//IM-0010-0094.dcm /input//IM-0010-0095.dcm /input//IM-0010-0096.dcm /input//IM-0010-0097.dcm /input//IM-0010-0098.dcm /input//IM-0010-0099.dcm /input//IM-0010-0100.dcm /input//IM-0010-0101.dcm /input//IM-0010-0102.dcm /input//IM-0010-0103.dcm /input//IM-0010-0104.dcm /input//IM-0010-0105.dcm /input//IM-0010-0106.dcm /input//IM-0010-0107.dcm /input//IM-0010-0108.dcm /input//IM-0010-0109.dcm /input//IM-0010-0110.dcm /input//IM-0010-0111.dcm /input//IM-0010-0112.dcm /input//IM-0010-0113.dcm /input//IM-0010-0114.dcm /input//IM-0010-0115.dcm /input//IM-0010-0116.dcm /input//IM-0010-0117.dcm /input//IM-0010-0118.dcm /input//IM-0010-0119.dcm /input//IM-0010-0120.dcm /input//IM-0010-0121.dcm /input//IM-0010-0122.dcm /input//IM-0010-0123.dcm /input//IM-0010-0124.dcm /input//IM-0010-0125.dcm /input//IM-0010-0126.dcm /input//IM-0010-0127.dcm /input//IM-0010-0128.dcm /input//IM-0010-0129.dcm /input//IM-0010-0130.dcm /input//IM-0010-0131.dcm /input//IM-0010-0132.dcm /input//IM-0010-0133.dcm /input//IM-0010-0134.dcm /input//IM-0010-0135.dcm /input//IM-0010-0136.dcm /input//IM-0010-0137.dcm /input//IM-0010-0138.dcm /input//IM-0010-0139.dcm /input//IM-0010-0140.dcm /input//IM-0010-0141.dcm /input//IM-0010-0142.dcm /input//IM-0010-0143.dcm /input//IM-0010-0144.dcm /input//IM-0010-0145.dcm /input//IM-0010-0146.dcm /input//IM-0010-0147.dcm /input//IM-0010-0148.dcm /input//IM-0010-0149.dcm /input//IM-0010-0150.dcm /input//IM-0010-0151.dcm /input//IM-0010-0152.dcm /input//IM-0010-0153.dcm /input//IM-0010-0154.dcm /input//IM-0010-0155.dcm /input//IM-0010-0156.dcm /input//IM-0010-0157.dcm /input//IM-0010-0158.dcm /input//IM-0010-0159.dcm /input//IM-0010-0160.dcm /input//IM-0010-0161.dcm /input//IM-0010-0162.dcm /input//IM-0010-0163.dcm /input//IM-0010-0164.dcm /input//IM-0010-0165.dcm /input//IM-0010-0166.dcm /input//IM-0010-0167.dcm /input//IM-0010-0168.dcm /input//IM-0010-0169.dcm /input//IM-0010-0170.dcm /input//IM-0010-0171.dcm /input//IM-0010-0172.dcm /input//IM-0010-0173.dcm /input//IM-0010-0174.dcm /input//IM-0010-0175.dcm /input//IM-0010-0176.dcm /input//IM-0010-0177.dcm /input//IM-0010-0178.dcm /input//IM-0010-0179.dcm /input//IM-0010-0180.dcm /input//IM-0010-0181.dcm /input//IM-0010-0182.dcm /input//IM-0010-0183.dcm /input//IM-0010-0184.dcm /input//IM-0010-0185.dcm /input//IM-0010-0186.dcm /input//IM-0010-0187.dcm /input//IM-0010-0188.dcm /input//IM-0010-0189.dcm /input//IM-0010-0190.dcm /input//IM-0010-0191.dcm /input//IM-0010-0192.dcm /input//IM-0010-0193.dcm /input//IM-0010-0194.dcm /input//IM-0010-0195.dcm /input//IM-0010-0196.dcm /input//IM-0010-0197.dcm /input//IM-0010-0198.dcm /input//IM-0010-0199.dcm /input//IM-0010-0200.dcm /input//IM-0010-0201.dcm /input//IM-0010-0202.dcm /input//IM-0010-0203.dcm /input//IM-0010-0204.dcm /input//IM-0010-0205.dcm /input//IM-0010-0206.dcm /input//IM-0010-0207.dcm /input//IM-0010-0208.dcm /input//IM-0010-0209.dcm /input//IM-0010-0210.dcm /input//IM-0010-0211.dcm /input//IM-0010-0212.dcm /input//IM-0010-0213.dcm /input//IM-0010-0214.dcm /input//IM-0010-0215.dcm /input//IM-0010-0216.dcm /input//IM-0010-0217.dcm /input//IM-0010-0218.dcm /input//IM-0010-0219.dcm /input//IM-0010-0220.dcm /input//IM-0010-0221.dcm /input//IM-0010-0222.dcm /input//IM-0010-0223.dcm /input//IM-0010-0224.dcm /input//IM-0010-0225.dcm /input//IM-0010-0226.dcm /input//IM-0010-0227.dcm /input//IM-0010-0228.dcm /input//IM-0010-0229.dcm /input//IM-0010-0230.dcm /input//IM-0010-0231.dcm /input//IM-0010-0232.dcm /input//IM-0010-0233.dcm /input//IM-0010-0234.dcm /input//IM-0010-0235.dcm /input//IM-0010-0236.dcm /input//IM-0010-0237.dcm /input//IM-0010-0238.dcm /input//IM-0010-0239.dcm /input//IM-0010-0240.dcm /input//IM-0010-0241.dcm /input//IM-0010-0242.dcm /input//IM-0010-0243.dcm /input//IM-0010-0244.dcm /input//IM-0010-0245.dcm /input//IM-0010-0246.dcm /input//IM-0010-0247.dcm /input//IM-0010-0248.dcm /input//IM-0010-0249.dcm /input//IM-0010-0250.dcm /input//IM-0010-0251.dcm /input//IM-0010-0252.dcm /input//IM-0010-0253.dcm /input//IM-0010-0254.dcm /input//IM-0010-0255.dcm /input//IM-0010-0256.dcm /input//IM-0010-0257.dcm /input//IM-0010-0258.dcm /input//IM-0010-0259.dcm /input//IM-0010-0260.dcm /input//IM-0010-0261.dcm /input//IM-0010-0262.dcm /input//IM-0010-0263.dcm /input//IM-0010-0264.dcm /input//IM-0010-0265.dcm /input//IM-0010-0266.dcm /input//IM-0010-0267.dcm /input//IM-0010-0268.dcm /input//IM-0010-0269.dcm /input//IM-0010-0270.dcm /input//IM-0010-0271.dcm /input//IM-0010-0272.dcm /input//IM-0010-0273.dcm /input//IM-0010-0274.dcm /input//IM-0010-0275.dcm /input//IM-0010-0276.dcm /input//IM-0010-0277.dcm /input//IM-0010-0278.dcm /input//IM-0010-0279.dcm /input//IM-0010-0280.dcm /input//IM-0010-0281.dcm /input//IM-0010-0282.dcm /input//IM-0010-0283.dcm /input//IM-0010-0284.dcm /input//IM-0010-0285.dcm /input//IM-0010-0286.dcm /input//IM-0010-0287.dcm /input//IM-0010-0288.dcm /input//IM-0010-0289.dcm /input//IM-0010-0290.dcm /input//IM-0010-0291.dcm /input//IM-0010-0292.dcm /input//IM-0010-0293.dcm /input//IM-0010-0294.dcm /input//IM-0010-0295.dcm /input//IM-0010-0296.dcm /input//IM-0010-0297.dcm /input//IM-0010-0298.dcm /input//IM-0010-0299.dcm /input//IM-0010-0300.dcm /input//IM-0010-0301.dcm /input//IM-0010-0302.dcm /input//IM-0010-0303.dcm /input//IM-0010-0304.dcm /input//IM-0010-0305.dcm /input//IM-0010-0306.dcm /input//IM-0010-0307.dcm /input//IM-0010-0308.dcm /input//IM-0010-0309.dcm /input//IM-0010-0310.dcm /input//IM-0010-0311.dcm /input//IM-0010-0312.dcm /input//IM-0010-0313.dcm /input//IM-0010-0314.dcm /input//IM-0010-0315.dcm /input//IM-0010-0316.dcm /input//IM-0010-0317.dcm /input//IM-0010-0318.dcm /input//IM-0010-0319.dcm /input//IM-0010-0320.dcm /input//IM-0010-0321.dcm /input//IM-0010-0322.dcm /input//IM-0010-0323.dcm /input//IM-0010-0324.dcm /input//IM-0010-0325.dcm /input//IM-0010-0326.dcm [args truncated]</programArgument>
+          <version>BXH utilities (1.11.14)</version>
+          <timeStamp>2025-05-30 20:15:27</timeStamp>
+          <cvs>/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_utils.cpp v1.67
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dom_utils.cpp v1.41
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dicom.cpp v1.1
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dom_utils-xerces.cpp v1.4
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_signa.c v1.49
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/utils/bxhabsorb.c v1.39
+</cvs>
+          <user>(unknown)</user>
+          <machine>(unknown)</machine>
+          <platform>(unknown)</platform>
+          <platformVersion/>
+        </processStep>
+      </description>
+    </entry>
+    <entry>
+      <date>2025-05-30 20:18:00</date>
+      <description>
+Generated on 820ba996bc9a by '/home/fbirnqa/fbirnqa/bxh_xcede/bin/fmriqa_phantomqa' (BXH utilities (1.11.14)) from 1 input args: /fbirn_out/ses32ch_funcbold_acqcmrrstd_tasktsnr_19.xml
+BXH utilities (1.11.14)</description>
+    </entry>
+  </history>
+</bxh>
