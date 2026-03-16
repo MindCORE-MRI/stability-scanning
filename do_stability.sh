@@ -121,17 +121,16 @@ osascript -e 'tell application "Safari" to activate' \
 #try updating the output on readthedocs via github
 
 #may need to run these commands again?
-#git remote set-url origin git@github.com:MindCORE-MRI/stability-scanning.git
+#git remote set origin git@github.com:MindCORE-MRI/stability-scanning.git
 #git config --global user.email "bkirwan@sas.upenn.edu"
 #git config --global user.name MindCORE-MRI
 #git init
-#git remote add origin git@github.com:MindCORE-MRI/stability-scanning.git
+git remote add origin git@github.com:MindCORE-MRI/stability-scanning.git
 
-git pull git@github.com:MindCORE-MRI/stability-scanning.git main
+git pull origin main
 
 git add .
 git commit -m "Auto update from stability script"
-#git push --set-upstream origin main
-git push git@github.com:MindCORE-MRI/stability-scanning.git
+git push -u origin main
 
 

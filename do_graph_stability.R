@@ -1,6 +1,6 @@
 ## Script to read in stability metrics and generate some reports
 
-install.packages(c("ggplot2", "readr", "fs", "dplyr", "tidyr", "RColorBrewer", "lubridate"), repos = "https://cloud.r-project.org")
+#install.packages(c("ggplot2", "readr", "fs", "dplyr", "tidyr", "RColorBrewer", "lubridate"), repos = "https://cloud.r-project.org")
 
 # Load packages
 library(ggplot2)
