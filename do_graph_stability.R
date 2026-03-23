@@ -176,6 +176,58 @@ for (coil in unique(metric_data$HeadCoil)) {
          width = 14, height = 5, dpi = 300)
 }
 
+#add another double loop to create separate plots for each metric
+
+### Individual Metric Plots ###
+
+# Get unique metrics
+metrics <- unique(metric_data$Metric)
+
+# Loop over coils
+for (coil in unique(metric_data$HeadCoil)) {
+  
+  coil_data <- metric_data %>% filter(HeadCoil == coil)
+  
+  # Loop over metrics
+  for (metric in metrics) {
+    
+    this_data <- coil_data %>% filter(Metric == metric)
+    
+    p <- ggplot(this_data, aes(x = Date, y = Value, color = Sequence, group = Sequence)) +
+      geom_line(linewidth = 0.8) +
+      geom_point(size = 2) +
+      scale_y_continuous(limits = c(0, NA), expand = c(0, 0)) +
+      scale_x_date(date_breaks = "1 month", date_labels = "%b\n%Y") +
+      scale_color_manual(
+        values = color_values,
+        labels = sequence_labels
+      ) +
+      theme_minimal(base_size = 14) +
+      theme(
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        legend.box = "vertical",
+        legend.title = element_blank()
+      ) +
+      labs(
+        title = paste(coil, "-", metric),
+        x = "Scan Date",
+        y = "Value"
+      )
+    
+    ggsave(
+      filename = paste0("Graphs/", coil, "_", gsub(" ", "_", metric), ".png"),
+      plot = p,
+      width = 7,
+      height = 5,
+      dpi = 300
+    )
+  }
+}
+
+
+
+
 ## Gradient coil temps
 df <- read_csv("GradientCoilTemps.csv") %>%
   mutate(Date = mdy(Date))
