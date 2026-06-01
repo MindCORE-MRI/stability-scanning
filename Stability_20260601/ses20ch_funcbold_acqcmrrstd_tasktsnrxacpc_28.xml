@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+<serieslevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://nbirn.net/Resources/Users/Applications/xcede/" xmlns:xcede="http://nbirn.net/Resources/Users/Applications/xcede/">
+  <subject>
+    <name>Stability_20260601</name>
+    <sex>female</sex>
+  </subject>
+  <visit>
+    <subjectVar>
+      <age agetype="postnatal" units="years">26</age>
+    </subjectVar>
+  </visit>
+  <scanner>
+    <model>AWP213018</model>
+  </scanner>
+  <expProtocol>
+    <name>ses-20ch_func-bold_acq-cmrrstd_task-tsnrxacpc</name>
+  </expProtocol>
+  <acqProtocol>
+    <name/>
+    <acqParam name="examnumber" type="integer">5fbb6896-e9ee-48</acqParam>
+    <acqParam name="studyid" type="varchar">Stability_20260601</acqParam>
+    <acqParam name="seriesnumber" type="integer">28</acqParam>
+    <acqParam name="runnumber" type="integer">1</acqParam>
+    <acqParam name="magneticfield" type="float">3</acqParam>
+    <acqParam name="description" type="varchar">ses-20ch_func-bold_acq-cmrrstd_task-tsnrxacpc</acqParam>
+    <acqParam name="scandate" type="varchar">2026-06-01</acqParam>
+    <acqParam name="scantime" type="varchar">10:32:36</acqParam>
+    <acqParam name="tr" type="float">2000</acqParam>
+    <acqParam name="te" type="float">30</acqParam>
+    <acqParam name="operator" type="varchar"/>
+    <acqParam name="flipangle" type="float">79</acqParam>
+    <acqParam name="prescribedslicespacing" type="float">2</acqParam>
+    <acqParam name="frequencydirection" type="integer">1</acqParam>
+    <acqParam name="receivecoilname" type="varchar">HeadNeck_20_TCS</acqParam>
+    <acqParam name="transmitcoilname" type="varchar">Body</acqParam>
+    <acqParam name="institution" type="varchar">THE UNIVERSITY OF PENNSYLVANIA</acqParam>
+    <acqParam name="examdescription" type="varchar">ACTIVE KIRWAN</acqParam>
+    <acqParam name="scanner" type="varchar">AWP213018</acqParam>
+    <acqParam name="scannermanufacturer" type="varchar">Siemens Healthineers</acqParam>
+    <acqParam name="scannermodelname" type="varchar">MAGNETOM Cima.X</acqParam>
+    <acqParam name="protocolname" type="varchar">ses-20ch_func-bold_acq-cmrrstd_task-tsnrxacpc</acqParam>
+    <acqParam name="institutionaddress" type="varchar">Grays Ferry Ave. BLDG 250 STE 140 3401,Philadelphia,69 - KEYSTONE,US,19146</acqParam>
+    <acqParam name="institutionaldepartmentname" type="varchar">MindCORE Neuroimaging Suite 140</acqParam>
+    <acqParam name="acquisitiondatetime" type="varchar">20260601103234.120000</acqParam>
+    <acqParam name="frametype" type="varchar">ORIGINAL</acqParam>
+    <acqParam name="pixelpresentation" type="varchar">MONOCHROME</acqParam>
+    <acqParam name="volumetricproperties" type="varchar">DISTORTED</acqParam>
+    <acqParam name="volumebasedcalculationtechnique" type="varchar">NONE</acqParam>
+    <acqParam name="compleximagecomponent" type="varchar">MAGNITUDE</acqParam>
+    <acqParam name="acquisitioncontrast" type="varchar">UNKNOWN</acqParam>
+    <acqParam name="mracquisitiontype" type="varchar">2D</acqParam>
+    <acqParam name="numaverages" type="varchar">1</acqParam>
+    <acqParam name="spacingbetweenslices" type="varchar">2</acqParam>
+    <acqParam name="echotrainlength" type="varchar">80</acqParam>
+    <acqParam name="percentsampling" type="varchar">100</acqParam>
+    <acqParam name="percentphasefieldofview" type="varchar">100</acqParam>
+    <acqParam name="scannerserialnumber" type="varchar">213018</acqParam>
+    <acqParam name="softwareversions" type="varchar">syngo MR XA61</acqParam>
+    <acqParam name="inplanephaseencodingdirection" type="varchar">COLUMN</acqParam>
+    <acqParam name="variableflipangleflag" type="varchar">N</acqParam>
+    <acqParam name="contentqualification" type="varchar">RESEARCH</acqParam>
+    <acqParam name="acquisitionduration" type="varchar">217.892</acqParam>
+    <acqParam name="resonantnucleus" type="varchar">1H</acqParam>
+    <acqParam name="applicablesafetystandardagency" type="varchar">IEC</acqParam>
+    <acqParam name="acquisitionnumber" type="varchar">1</acqParam>
+    <acqParam name="instancenumber" type="varchar">1</acqParam>
+    <acqParam name="numtemporalpositions" type="varchar">100</acqParam>
+    <acqParam name="imagecomments" type="varchar">Not for diagnostic use, Unaliased MB3/PE3/LB</acqParam>
+    <acqParam name="samplesperpixel" type="varchar">1</acqParam>
+    <acqParam name="photometricinterpretation" type="varchar">MONOCHROME2</acqParam>
+    <acqParam name="numberofframes" type="varchar">69</acqParam>
+    <acqParam name="rows" type="varchar">106</acqParam>
+    <acqParam name="columns" type="varchar">106</acqParam>
+    <acqParam name="bitsallocated" type="varchar">16</acqParam>
+    <acqParam name="bitsstored" type="varchar">16</acqParam>
+    <acqParam name="highbit" type="varchar">15</acqParam>
+    <acqParam name="lossyimagecompression" type="varchar">00</acqParam>
+  </acqProtocol>
+  <datarec type="image">
+    <!-- AUTOGEN: Orientation is oblique axial -->
+    <rasorigin>106 138.822 -56.5236</rasorigin>
+    <dimension type="x">
+      <size>106</size>
+      <origin>106</origin>
+      <spacing>2</spacing>
+      <gap>0</gap>
+      <direction>-1 -5.50694e-09 5.23949e-08</direction>
+      <units>mm</units>
+    </dimension>
+    <dimension type="y">
+      <size>106</size>
+      <origin>138.822</origin>
+      <spacing>2</spacing>
+      <gap>0</gap>
+      <direction>-5.50694e-09 -0.978148 -0.207912</direction>
+      <units>mm</units>
+    </dimension>
+    <dimension type="z">
+      <size>69</size>
+      <origin>-56.5236</origin>
+      <spacing>2.00000040904029</spacing>
+      <gap>0</gap>
+      <direction>0 -0.2079117 0.9781476</direction>
+      <units>mm</units>
+    </dimension>
+    <dimension type="t">
+      <size>100</size>
+      <origin>0</origin>
+      <spacing>2000</spacing>
+      <gap>0</gap>
+      <units>ms</units>
+    </dimension>
+    <byteorder>lsbfirst</byteorder>
+    <elementtype>uint16</elementtype>
+    <filename>/input//IM-0006-0069.dcm</filename>
+    <fileoffset>246676</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0070.dcm</filename>
+    <fileoffset>246754</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0071.dcm</filename>
+    <fileoffset>246814</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0072.dcm</filename>
+    <fileoffset>246814</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0073.dcm</filename>
+    <fileoffset>246814</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0074.dcm</filename>
+    <fileoffset>246814</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0075.dcm</filename>
+    <fileoffset>246814</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0076.dcm</filename>
+    <fileoffset>246814</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0077.dcm</filename>
+    <fileoffset>246814</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0078.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0079.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0080.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0081.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0082.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0083.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0084.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0085.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0086.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0087.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0088.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0089.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0090.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0091.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0092.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0093.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0094.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0095.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0096.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0097.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0098.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0099.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0100.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0101.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0102.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0103.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0104.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0105.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0106.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0107.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0108.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0109.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0110.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0111.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0112.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0113.dcm</filename>
+    <fileoffset>246952</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0114.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0115.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0116.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0117.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0118.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0119.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0120.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0121.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0122.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0123.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0124.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0125.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0126.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0127.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0128.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0129.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0130.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0131.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0132.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0133.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0134.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0135.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0136.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0137.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0138.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0139.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0140.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0141.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0142.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0143.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0144.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0145.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0146.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0147.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0148.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0149.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0150.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0151.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0152.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0153.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0154.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0155.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0156.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0157.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0158.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0159.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0160.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0161.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0162.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0163.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0164.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0165.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0166.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0167.dcm</filename>
+    <fileoffset>246994</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+    <filename>/input//IM-0006-0168.dcm</filename>
+    <fileoffset>247136</fileoffset>
+    <filerecordsize>1550568</filerecordsize>
+  </datarec>
+  <provenance>
+    <processStep>
+      <programName>/home/fbirnqa/fbirnqa/bxh_xcede/bin/dicom2bxh</programName>
+      <programArgument>/input//IM-0006-0069.dcm /input//IM-0006-0070.dcm /input//IM-0006-0071.dcm /input//IM-0006-0072.dcm /input//IM-0006-0073.dcm /input//IM-0006-0074.dcm /input//IM-0006-0075.dcm /input//IM-0006-0076.dcm /input//IM-0006-0077.dcm /input//IM-0006-0078.dcm /input//IM-0006-0079.dcm /input//IM-0006-0080.dcm /input//IM-0006-0081.dcm /input//IM-0006-0082.dcm /input//IM-0006-0083.dcm /input//IM-0006-0084.dcm /input//IM-0006-0085.dcm /input//IM-0006-0086.dcm /input//IM-0006-0087.dcm /input//IM-0006-0088.dcm /input//IM-0006-0089.dcm /input//IM-0006-0090.dcm /input//IM-0006-0091.dcm /input//IM-0006-0092.dcm /input//IM-0006-0093.dcm /input//IM-0006-0094.dcm /input//IM-0006-0095.dcm /input//IM-0006-0096.dcm /input//IM-0006-0097.dcm /input//IM-0006-0098.dcm /input//IM-0006-0099.dcm /input//IM-0006-0100.dcm /input//IM-0006-0101.dcm /input//IM-0006-0102.dcm /input//IM-0006-0103.dcm /input//IM-0006-0104.dcm /input//IM-0006-0105.dcm /input//IM-0006-0106.dcm /input//IM-0006-0107.dcm /input//IM-0006-0108.dcm /input//IM-0006-0109.dcm /input//IM-0006-0110.dcm /input//IM-0006-0111.dcm /input//IM-0006-0112.dcm /input//IM-0006-0113.dcm /input//IM-0006-0114.dcm /input//IM-0006-0115.dcm /input//IM-0006-0116.dcm /input//IM-0006-0117.dcm /input//IM-0006-0118.dcm /input//IM-0006-0119.dcm /input//IM-0006-0120.dcm /input//IM-0006-0121.dcm /input//IM-0006-0122.dcm /input//IM-0006-0123.dcm /input//IM-0006-0124.dcm /input//IM-0006-0125.dcm /input//IM-0006-0126.dcm /input//IM-0006-0127.dcm /input//IM-0006-0128.dcm /input//IM-0006-0129.dcm /input//IM-0006-0130.dcm /input//IM-0006-0131.dcm /input//IM-0006-0132.dcm /input//IM-0006-0133.dcm /input//IM-0006-0134.dcm /input//IM-0006-0135.dcm /input//IM-0006-0136.dcm /input//IM-0006-0137.dcm /input//IM-0006-0138.dcm /input//IM-0006-0139.dcm /input//IM-0006-0140.dcm /input//IM-0006-0141.dcm /input//IM-0006-0142.dcm /input//IM-0006-0143.dcm /input//IM-0006-0144.dcm /input//IM-0006-0145.dcm /input//IM-0006-0146.dcm /input//IM-0006-0147.dcm /input//IM-0006-0148.dcm /input//IM-0006-0149.dcm /input//IM-0006-0150.dcm /input//IM-0006-0151.dcm /input//IM-0006-0152.dcm /input//IM-0006-0153.dcm /input//IM-0006-0154.dcm /input//IM-0006-0155.dcm /input//IM-0006-0156.dcm /input//IM-0006-0157.dcm /input//IM-0006-0158.dcm /input//IM-0006-0159.dcm /input//IM-0006-0160.dcm /input//IM-0006-0161.dcm /input//IM-0006-0162.dcm /input//IM-0006-0163.dcm /input//IM-0006-0164.dcm /input//IM-0006-0165.dcm /input//IM-0006-0166.dcm /input//IM-0006-0167.dcm /input//IM-0006-0168.dcm</programArgument>
+      <version>BXH utilities (1.11.14)</version>
+      <timeStamp>2026-06-01 14:51:51</timeStamp>
+      <cvs>/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_utils.cpp v1.67
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dom_utils.cpp v1.41
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dicom.cpp v1.1
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dom_utils-xerces.cpp v1.4
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_signa.c v1.49
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/utils/bxhabsorb.c v1.39
+</cvs>
+      <user>(unknown)</user>
+      <machine>(unknown)</machine>
+      <platform>(unknown)</platform>
+      <platformVersion/>
+    </processStep>
+  </provenance>
+</serieslevel>
