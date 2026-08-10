@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<bxh xmlns="http://www.biac.duke.edu/bxh" xmlns:bxh="http://www.biac.duke.edu/bxh" version="1.0">
+  <datarec type="image">
+    <dimension type="x">
+      <units>mm</units>
+      <size>106</size>
+      <origin>106</origin>
+      <gap>0</gap>
+      <spacing>2</spacing>
+      <direction>-1 -5.50694e-09 5.23949e-08</direction>
+    </dimension>
+    <dimension type="y">
+      <units>mm</units>
+      <size>106</size>
+      <origin>117.822</origin>
+      <gap>0</gap>
+      <spacing>2</spacing>
+      <direction>-5.50694e-09 -0.978148 -0.207912</direction>
+    </dimension>
+    <byteorder>lsbfirst</byteorder>
+    <elementtype>float32</elementtype>
+    <filename>ses-64ch_func-bold_acq-cmrrstd_task-tsnrxacpc_ave.img</filename>
+    <fileoffset>0</fileoffset>
+    <filerecordsize>44944</filerecordsize>
+  </datarec>
+  <acquisitiondata>
+    <scanner>AWP213018</scanner>
+    <psdname/>
+    <examnumber>c7fa4241-6490-44</examnumber>
+    <studyid>Stability_20260810</studyid>
+    <seriesnumber>10</seriesnumber>
+    <runnumber>1</runnumber>
+    <magneticfield>3</magneticfield>
+    <description>ses-64ch_func-bold_acq-cmrrstd_task-tsnrxacpc</description>
+    <scandate>2026-08-10</scandate>
+    <scantime>10:05:22</scantime>
+    <tr>2000</tr>
+    <te>30</te>
+    <operator/>
+    <flipangle>79</flipangle>
+    <prescribedslicespacing>2</prescribedslicespacing>
+    <frequencydirection>1</frequencydirection>
+    <receivecoilname>HeadNeck_64_CS</receivecoilname>
+    <transmitcoilname>Body</transmitcoilname>
+    <institution>THE UNIVERSITY OF PENNSYLVANIA</institution>
+    <examdescription>ACTIVE KIRWAN</examdescription>
+    <scanner>AWP213018</scanner>
+    <scannermanufacturer>Siemens Healthineers</scannermanufacturer>
+    <scannermodelname>MAGNETOM Cima.X</scannermodelname>
+    <protocolname>ses-64ch_func-bold_acq-cmrrstd_task-tsnrxacpc</protocolname>
+    <institutionaddress>Grays Ferry Ave. BLDG 250 STE 140 3401,Philadelphia,69 - KEYSTONE,US,19146</institutionaddress>
+    <institutionaldepartmentname>MindCORE Neuroimaging Suite 140</institutionaldepartmentname>
+    <acqParam name="acquisitiondatetime" type="varchar">20260810100520.662500</acqParam>
+    <acqParam name="frametype" type="varchar">ORIGINAL</acqParam>
+    <acqParam name="pixelpresentation" type="varchar">MONOCHROME</acqParam>
+    <acqParam name="volumetricproperties" type="varchar">DISTORTED</acqParam>
+    <acqParam name="volumebasedcalculationtechnique" type="varchar">NONE</acqParam>
+    <acqParam name="compleximagecomponent" type="varchar">MAGNITUDE</acqParam>
+    <acqParam name="acquisitioncontrast" type="varchar">UNKNOWN</acqParam>
+    <acqParam name="mracquisitiontype" type="varchar">2D</acqParam>
+    <acqParam name="numaverages" type="varchar">1</acqParam>
+    <acqParam name="spacingbetweenslices" type="varchar">2</acqParam>
+    <acqParam name="echotrainlength" type="varchar">80</acqParam>
+    <acqParam name="percentsampling" type="varchar">100</acqParam>
+    <acqParam name="percentphasefieldofview" type="varchar">100</acqParam>
+    <acqParam name="scannerserialnumber" type="varchar">213018</acqParam>
+    <acqParam name="softwareversions" type="varchar">syngo MR XA61</acqParam>
+    <acqParam name="inplanephaseencodingdirection" type="varchar">COLUMN</acqParam>
+    <acqParam name="variableflipangleflag" type="varchar">N</acqParam>
+    <acqParam name="contentqualification" type="varchar">RESEARCH</acqParam>
+    <acqParam name="acquisitionduration" type="varchar">217.892</acqParam>
+    <acqParam name="resonantnucleus" type="varchar">1H</acqParam>
+    <acqParam name="applicablesafetystandardagency" type="varchar">IEC</acqParam>
+    <acqParam name="acquisitionnumber" type="varchar">1</acqParam>
+    <acqParam name="instancenumber" type="varchar">1</acqParam>
+    <acqParam name="numtemporalpositions" type="varchar">100</acqParam>
+    <acqParam name="imagecomments" type="varchar">Not for diagnostic use, Unaliased MB3/PE3/LB</acqParam>
+    <acqParam name="samplesperpixel" type="varchar">1</acqParam>
+    <acqParam name="photometricinterpretation" type="varchar">MONOCHROME2</acqParam>
+    <acqParam name="numberofframes" type="varchar">69</acqParam>
+    <acqParam name="rows" type="varchar">106</acqParam>
+    <acqParam name="columns" type="varchar">106</acqParam>
+    <acqParam name="bitsallocated" type="varchar">16</acqParam>
+    <acqParam name="bitsstored" type="varchar">16</acqParam>
+    <acqParam name="highbit" type="varchar">15</acqParam>
+    <acqParam name="lossyimagecompression" type="varchar">00</acqParam>
+  </acquisitiondata>
+  <subject>
+    <age>26</age>
+    <name>Stability_20260810</name>
+    <sex>F</sex>
+  </subject>
+  <history>
+    <entry>
+      <date>2026-08-10 15:04:23</date>
+      <description>
+        <processStep>
+          <programName>/home/fbirnqa/fbirnqa/bxh_xcede/bin/dicom2bxh</programName>
+          <programArgument>/input//MR000001.dcm /input//MR000002.dcm /input//MR000003.dcm /input//MR000004.dcm /input//MR000005.dcm /input//MR000006.dcm /input//MR000007.dcm /input//MR000008.dcm /input//MR000009.dcm /input//MR000010.dcm /input//MR000011.dcm /input//MR000012.dcm /input//MR000013.dcm /input//MR000014.dcm /input//MR000015.dcm /input//MR000016.dcm /input//MR000017.dcm /input//MR000018.dcm /input//MR000019.dcm /input//MR000020.dcm /input//MR000021.dcm /input//MR000022.dcm /input//MR000023.dcm /input//MR000024.dcm /input//MR000025.dcm /input//MR000026.dcm /input//MR000027.dcm /input//MR000028.dcm /input//MR000029.dcm /input//MR000030.dcm /input//MR000031.dcm /input//MR000032.dcm /input//MR000033.dcm /input//MR000034.dcm /input//MR000035.dcm /input//MR000036.dcm /input//MR000037.dcm /input//MR000038.dcm /input//MR000039.dcm /input//MR000040.dcm /input//MR000041.dcm /input//MR000042.dcm /input//MR000043.dcm /input//MR000044.dcm /input//MR000045.dcm /input//MR000046.dcm /input//MR000047.dcm /input//MR000048.dcm /input//MR000049.dcm /input//MR000050.dcm /input//MR000051.dcm /input//MR000052.dcm /input//MR000053.dcm /input//MR000054.dcm /input//MR000055.dcm /input//MR000056.dcm /input//MR000057.dcm /input//MR000058.dcm /input//MR000059.dcm /input//MR000060.dcm /input//MR000061.dcm /input//MR000062.dcm /input//MR000063.dcm /input//MR000064.dcm /input//MR000065.dcm /input//MR000066.dcm /input//MR000067.dcm /input//MR000068.dcm /input//MR000069.dcm /input//MR000070.dcm /input//MR000071.dcm /input//MR000072.dcm /input//MR000073.dcm /input//MR000074.dcm /input//MR000075.dcm /input//MR000076.dcm /input//MR000077.dcm /input//MR000078.dcm /input//MR000079.dcm /input//MR000080.dcm /input//MR000081.dcm /input//MR000082.dcm /input//MR000083.dcm /input//MR000084.dcm /input//MR000085.dcm /input//MR000086.dcm /input//MR000087.dcm /input//MR000088.dcm /input//MR000089.dcm /input//MR000090.dcm /input//MR000091.dcm /input//MR000092.dcm /input//MR000093.dcm /input//MR000094.dcm /input//MR000095.dcm /input//MR000096.dcm /input//MR000097.dcm /input//MR000098.dcm /input//MR000099.dcm /input//MR000100.dcm</programArgument>
+          <version>BXH utilities (1.11.14)</version>
+          <timeStamp>2026-08-10 15:04:23</timeStamp>
+          <cvs>/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_utils.cpp v1.67
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dom_utils.cpp v1.41
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dicom.cpp v1.1
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dom_utils-xerces.cpp v1.4
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_signa.c v1.49
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/utils/bxhabsorb.c v1.39
+</cvs>
+          <user>(unknown)</user>
+          <machine>(unknown)</machine>
+          <platform>(unknown)</platform>
+          <platformVersion/>
+        </processStep>
+      </description>
+    </entry>
+    <entry>
+      <date>2026-08-10 15:04:24</date>
+      <description>
+Generated on 24ee62beb9fa by '/home/fbirnqa/fbirnqa/bxh_xcede/bin/fmriqa_phantomqa' (BXH utilities (1.11.14)) from 1 input args: /fbirn_out/ses-64ch_func-bold_acq-cmrrstd_task-tsnrxacpc.xml
+BXH utilities (1.11.14)</description>
+    </entry>
+  </history>
+</bxh>
