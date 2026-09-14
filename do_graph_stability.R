@@ -33,6 +33,21 @@ sequences <- c(
   'ses20ch_funcbold_acqcmrrstd_tasktsnrxacpc'
 )
 
+sequences_orthanc <- c(
+  'ses-64ch_func-bold_acq-cmrrstd_task-warmup',
+  'ses-64ch_func-bold_acq-siemensstd_task-tsnr',
+  'ses-64ch_func-bold_acq-cmrrstd_task-tsnr',
+  'ses-64ch_func-bold_acq-siemensbasic_task-tsnr',
+  'ses-64ch_func-bold_acq-cmrrstd_task-tsnrxacpc',
+  'ses-32ch_func-bold_acq-siemensstd_task-tsnr',
+  'ses-32ch_func-bold_acq-siemensbasic_task-tsnr',
+  'ses-32ch_func-bold_acq-cmrrstd_task-tsnr',
+  'ses-32ch_func-bold_acq-cmrrstd_task-tsnrxacpc',
+  'ses-20ch_func-bold_acq-siemensstd_task-tsnr',
+  'ses-20ch_func-bold_acq-cmrrstd_task-tsnr',
+  'ses-20ch_func-bold_acq-cmrrstd_task-tsnrxacpc'
+)
+
 sequence_descriptions <- c(
   'CMRR Warmup, 2mm^3',
   'Siemens Grappa=2, 3mm^3',
@@ -70,7 +85,12 @@ for (i in seq_along(sequences)) {
   for (j in seq_along(scan_dirs)) {
     
     dirs <- list.dirs(scan_dirs[j], full.names = TRUE, recursive = TRUE)
+    
     matching_dir <- dirs[grepl(sequences[i], dirs)]
+    #check to see if the scan directory didn't read in
+    if (length(matching_dir) == 0) {
+      matching_dir <- dirs[grepl(sequences_orthanc[i], dirs)]
+    }
     
     if (length(matching_dir) > 0) {
       folder <- matching_dir[1]
@@ -171,7 +191,7 @@ for (coil in unique(metric_data$HeadCoil)) {
       x = "Scan Date",
       y = "Value"
     )
-
+  
   ggsave(filename = paste0("Graphs/", coil, "_summary.png"), plot = p,
          width = 14, height = 5, dpi = 300)
 }

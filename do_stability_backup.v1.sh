@@ -1,6 +1,9 @@
 #!/bin/bash
 
 ## TODO: 
+# Don't use box; instead push all the results to a new github repo. 
+# document the github login and setup stuff needed before executing this file. E.g.:
+# git config --global user.name MindCORE-MRI
 # 
 
 
@@ -13,13 +16,12 @@ if [ $# -eq 0 ]; then
   echo "Usage: $0 <relative path to stability input directory>"
   exit 1
 fi
-subid=$1
 
 # Set the stability scan directory (assume it's ~/stability)
 stabdir=~/stability
 
-#set the input directory (assumes it's in ~/stability/)
-pardir=${stabdir}/${subid}
+#Grab the input directory (assumes it's in ~/stability/)
+pardir=${stabdir}/$1
 
 #start docker in the background (not sure it's capable of not popping up a window)
 open -g /Applications/Docker.app
@@ -58,44 +60,13 @@ epi3=${epi3:-$last_epi3}
 #append new line to csv
 echo "$today, $start, $epi1, $epi2, $epi3" >> $csv_file
 
-## Pull dicoms from Orthanc
-orthanc_ids=$(curl -s -X POST http://localhost:8042/tools/find \
-  -H "Content-Type: application/json" \
-  -d "{
-    \"Level\": \"Patient\",
-    \"Query\": {
-      \"PatientName\": \"${subid}\"
-    }
-  }")
-orthanc_ids_clean=$(echo "$orthanc_ids" | tr -d '[ " ]')
-#should only be one study
-study_id=$(curl -s http://localhost:8042/patients/${orthanc_ids_clean}/studies | jq -r '.[].ID')
-
-#download as zip
-echo ""
-echo "Downloading study ID $study_id to $stabdir/$subid.zip"
-
-curl -s \
-  "http://localhost:8042/studies/$study_id/archive" \
-  -o "$stabdir/$subid.zip"
-
-#unzip it
-unzip $subid.zip && rm $subid.zip
-#rename to take out extra subid
-mv "$subid $subid" "$subid"
-
-
-## Run stability evaluations with docker files.
-## Updated 7/21/26 to work with Orthanc output format
+## Run stability evaluations with docker files:
 
 #cd into the "subject" level directory, rename the default Horos dicom folder name w/o spaces
 cd $pardir
-if [ -d "ACTIVE KIRWAN" ]; then
-    mv "ACTIVE KIRWAN" dicoms
+if [ -d Active_Kirwan* ]; then
+    mv Active_Kirwan* dicoms
 fi
-
-#rename folders to take out spaces and the "MR" prefix Orthanc added
-find "dicoms" -depth -type d -name "MR *" -exec bash -c 'mv "$1" "$(dirname "$1")/$(basename "$1" | sed "s/^MR //")"' _ {} \; 
 
 cd dicoms
 
@@ -104,8 +75,6 @@ for i in ses*; do
 
   #set the input directory to the dicom directory
   indir=${pardir}/dicoms/${i}
-
-  echo $indir
   
   #Run the docker image on the latest stability scans
   docker run -it \
@@ -118,6 +87,7 @@ for i in ses*; do
   ##install weasyprint (if it's not already)
   #pip install weasyprint
   #convert output to pdf
+  #using explicit path since homebrew doesn't seem to work for bkirwan user
   /opt/homebrew/Cellar/weasyprint/63.1/libexec/bin/weasyprint ${pardir}/${i}/index.html ${pardir}/${i}.pdf
   
   #pull out summary statistics
@@ -144,9 +114,18 @@ osascript -e 'tell application "Safari" to activate' \
     -e 'tell application "Safari" to make new document with properties {URL: "file:///Users/mriuser/stability/Summary.html"}' \
     -e 'tell application "Safari" to set bounds of front window to {0, 0, 1200, 1200}'
 
-#update the output on readthedocs via github
+# #sync results to Box
+# rsync -rauv ${stabdir}/* ~/Library/CloudStorage/Box-Box/MindCORE_MRI_Facility/CimaX_Stability/.
 
-#git remote add origin git@github.com:MindCORE-MRI/stability-scanning.git
+
+#try updating the output on readthedocs via github
+
+#may need to run these commands again?
+#git remote set origin git@github.com:MindCORE-MRI/stability-scanning.git
+#git config --global user.email "bkirwan@sas.upenn.edu"
+#git config --global user.name MindCORE-MRI
+#git init
+git remote add origin git@github.com:MindCORE-MRI/stability-scanning.git
 
 git pull origin main
 
