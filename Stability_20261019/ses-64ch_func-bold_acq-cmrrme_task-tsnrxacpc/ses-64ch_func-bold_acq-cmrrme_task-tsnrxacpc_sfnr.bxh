@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<bxh xmlns="http://www.biac.duke.edu/bxh" xmlns:bxh="http://www.biac.duke.edu/bxh" version="1.0">
+  <datarec type="image">
+    <dimension type="x">
+      <units>mm</units>
+      <size>108</size>
+      <origin>110</origin>
+      <gap>0</gap>
+      <spacing>2.03704</spacing>
+      <direction>-1 -5.50694e-09 5.23949e-08</direction>
+    </dimension>
+    <dimension type="y">
+      <units>mm</units>
+      <size>108</size>
+      <origin>122.358</origin>
+      <gap>0</gap>
+      <spacing>2.03704</spacing>
+      <direction>-5.50694e-09 -0.978148 -0.207912</direction>
+    </dimension>
+    <byteorder>lsbfirst</byteorder>
+    <elementtype>float32</elementtype>
+    <filename>ses-64ch_func-bold_acq-cmrrme_task-tsnrxacpc_sfnr.img</filename>
+    <fileoffset>0</fileoffset>
+    <filerecordsize>46656</filerecordsize>
+  </datarec>
+  <acquisitiondata>
+    <scanner>AWP213018</scanner>
+    <psdname/>
+    <examnumber>a0f8a673-da21-44</examnumber>
+    <studyid>Stability_20261019</studyid>
+    <seriesnumber>13</seriesnumber>
+    <runnumber>1</runnumber>
+    <magneticfield>3</magneticfield>
+    <description>ses-64ch_func-bold_acq-cmrrme_task-tsnrxacpc</description>
+    <scandate>2026-10-19</scandate>
+    <scantime>11:57:34</scantime>
+    <tr>1720</tr>
+    <te>13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28 13.4 37.84 62.28</te>
+    <operator/>
+    <flipangle>70</flipangle>
+    <prescribedslicespacing>2</prescribedslicespacing>
+    <frequencydirection>1</frequencydirection>
+    <receivecoilname>HeadNeck_64_CS</receivecoilname>
+    <transmitcoilname>Body</transmitcoilname>
+    <institution>THE UNIVERSITY OF PENNSYLVANIA</institution>
+    <examdescription>ACTIVE KIRWAN</examdescription>
+    <scanner>AWP213018</scanner>
+    <scannermanufacturer>Siemens Healthineers</scannermanufacturer>
+    <scannermodelname>MAGNETOM Cima.X</scannermodelname>
+    <protocolname>ses-64ch_func-bold_acq-cmrrme_task-tsnrxacpc</protocolname>
+    <institutionaddress>Grays Ferry Ave. BLDG 250 STE 140 3401,Philadelphia,69 - KEYSTONE,US,19146</institutionaddress>
+    <institutionaldepartmentname>MindCORE Neuroimaging Suite 140</institutionaldepartmentname>
+    <acqParam name="acquisitiondatetime" type="varchar">20261019115717.422500</acqParam>
+    <acqParam name="frametype" type="varchar">ORIGINAL</acqParam>
+    <acqParam name="pixelpresentation" type="varchar">MONOCHROME</acqParam>
+    <acqParam name="volumetricproperties" type="varchar">DISTORTED</acqParam>
+    <acqParam name="volumebasedcalculationtechnique" type="varchar">NONE</acqParam>
+    <acqParam name="compleximagecomponent" type="varchar">MAGNITUDE</acqParam>
+    <acqParam name="acquisitioncontrast" type="varchar">UNKNOWN</acqParam>
+    <acqParam name="mracquisitiontype" type="varchar">2D</acqParam>
+    <acqParam name="numaverages" type="varchar">1</acqParam>
+    <acqParam name="spacingbetweenslices" type="varchar">2</acqParam>
+    <acqParam name="echotrainlength" type="varchar">40</acqParam>
+    <acqParam name="percentsampling" type="varchar">100</acqParam>
+    <acqParam name="percentphasefieldofview" type="varchar">100</acqParam>
+    <acqParam name="scannerserialnumber" type="varchar">213018</acqParam>
+    <acqParam name="softwareversions" type="varchar">syngo MR XA61</acqParam>
+    <acqParam name="inplanephaseencodingdirection" type="varchar">COLUMN</acqParam>
+    <acqParam name="variableflipangleflag" type="varchar">N</acqParam>
+    <acqParam name="contentqualification" type="varchar">RESEARCH</acqParam>
+    <acqParam name="acquisitionduration" type="varchar">204.60500000000002</acqParam>
+    <acqParam name="resonantnucleus" type="varchar">1H</acqParam>
+    <acqParam name="applicablesafetystandardagency" type="varchar">IEC</acqParam>
+    <acqParam name="acquisitionnumber" type="varchar">1</acqParam>
+    <acqParam name="instancenumber" type="varchar">1</acqParam>
+    <acqParam name="numtemporalpositions" type="varchar">100</acqParam>
+    <acqParam name="imagecomments" type="varchar">Not for diagnostic use, Unaliased MB4/PE4/LB SENSE1</acqParam>
+    <acqParam name="samplesperpixel" type="varchar">1</acqParam>
+    <acqParam name="photometricinterpretation" type="varchar">MONOCHROME2</acqParam>
+    <acqParam name="numberofframes" type="varchar">72</acqParam>
+    <acqParam name="rows" type="varchar">108</acqParam>
+    <acqParam name="columns" type="varchar">108</acqParam>
+    <acqParam name="bitsallocated" type="varchar">16</acqParam>
+    <acqParam name="bitsstored" type="varchar">16</acqParam>
+    <acqParam name="highbit" type="varchar">15</acqParam>
+    <acqParam name="lossyimagecompression" type="varchar">00</acqParam>
+  </acquisitiondata>
+  <subject>
+    <age>26</age>
+    <name>Stability_20261019</name>
+    <sex>M</sex>
+  </subject>
+  <history>
+    <entry>
+      <date>2026-10-19 17:00:08</date>
+      <description>
+        <processStep>
+          <programName>/home/fbirnqa/fbirnqa/bxh_xcede/bin/dicom2bxh</programName>
+          <programArgument>/input//MR000001.dcm /input//MR000002.dcm /input//MR000003.dcm /input//MR000004.dcm /input//MR000005.dcm /input//MR000006.dcm /input//MR000007.dcm /input//MR000008.dcm /input//MR000009.dcm /input//MR000010.dcm /input//MR000011.dcm /input//MR000012.dcm /input//MR000013.dcm /input//MR000014.dcm /input//MR000015.dcm /input//MR000016.dcm /input//MR000017.dcm /input//MR000018.dcm /input//MR000019.dcm /input//MR000020.dcm /input//MR000021.dcm /input//MR000022.dcm /input//MR000023.dcm /input//MR000024.dcm /input//MR000025.dcm /input//MR000026.dcm /input//MR000027.dcm /input//MR000028.dcm /input//MR000029.dcm /input//MR000030.dcm /input//MR000031.dcm /input//MR000032.dcm /input//MR000033.dcm /input//MR000034.dcm /input//MR000035.dcm /input//MR000036.dcm /input//MR000037.dcm /input//MR000038.dcm /input//MR000039.dcm /input//MR000040.dcm /input//MR000041.dcm /input//MR000042.dcm /input//MR000043.dcm /input//MR000044.dcm /input//MR000045.dcm /input//MR000046.dcm /input//MR000047.dcm /input//MR000048.dcm /input//MR000049.dcm /input//MR000050.dcm /input//MR000051.dcm /input//MR000052.dcm /input//MR000053.dcm /input//MR000054.dcm /input//MR000055.dcm /input//MR000056.dcm /input//MR000057.dcm /input//MR000058.dcm /input//MR000059.dcm /input//MR000060.dcm /input//MR000061.dcm /input//MR000062.dcm /input//MR000063.dcm /input//MR000064.dcm /input//MR000065.dcm /input//MR000066.dcm /input//MR000067.dcm /input//MR000068.dcm /input//MR000069.dcm /input//MR000070.dcm /input//MR000071.dcm /input//MR000072.dcm /input//MR000073.dcm /input//MR000074.dcm /input//MR000075.dcm /input//MR000076.dcm /input//MR000077.dcm /input//MR000078.dcm /input//MR000079.dcm /input//MR000080.dcm /input//MR000081.dcm /input//MR000082.dcm /input//MR000083.dcm /input//MR000084.dcm /input//MR000085.dcm /input//MR000086.dcm /input//MR000087.dcm /input//MR000088.dcm /input//MR000089.dcm /input//MR000090.dcm /input//MR000091.dcm /input//MR000092.dcm /input//MR000093.dcm /input//MR000094.dcm /input//MR000095.dcm /input//MR000096.dcm /input//MR000097.dcm /input//MR000098.dcm /input//MR000099.dcm /input//MR000100.dcm /input//MR000101.dcm /input//MR000102.dcm /input//MR000103.dcm /input//MR000104.dcm /input//MR000105.dcm /input//MR000106.dcm /input//MR000107.dcm /input//MR000108.dcm /input//MR000109.dcm /input//MR000110.dcm /input//MR000111.dcm /input//MR000112.dcm /input//MR000113.dcm /input//MR000114.dcm /input//MR000115.dcm /input//MR000116.dcm /input//MR000117.dcm /input//MR000118.dcm /input//MR000119.dcm /input//MR000120.dcm /input//MR000121.dcm /input//MR000122.dcm /input//MR000123.dcm /input//MR000124.dcm /input//MR000125.dcm /input//MR000126.dcm /input//MR000127.dcm /input//MR000128.dcm /input//MR000129.dcm /input//MR000130.dcm /input//MR000131.dcm /input//MR000132.dcm /input//MR000133.dcm /input//MR000134.dcm /input//MR000135.dcm /input//MR000136.dcm /input//MR000137.dcm /input//MR000138.dcm /input//MR000139.dcm /input//MR000140.dcm /input//MR000141.dcm /input//MR000142.dcm /input//MR000143.dcm /input//MR000144.dcm /input//MR000145.dcm /input//MR000146.dcm /input//MR000147.dcm /input//MR000148.dcm /input//MR000149.dcm /input//MR000150.dcm /input//MR000151.dcm /input//MR000152.dcm /input//MR000153.dcm /input//MR000154.dcm /input//MR000155.dcm /input//MR000156.dcm /input//MR000157.dcm /input//MR000158.dcm /input//MR000159.dcm /input//MR000160.dcm /input//MR000161.dcm /input//MR000162.dcm /input//MR000163.dcm /input//MR000164.dcm /input//MR000165.dcm /input//MR000166.dcm /input//MR000167.dcm /input//MR000168.dcm /input//MR000169.dcm /input//MR000170.dcm /input//MR000171.dcm /input//MR000172.dcm /input//MR000173.dcm /input//MR000174.dcm /input//MR000175.dcm /input//MR000176.dcm /input//MR000177.dcm /input//MR000178.dcm /input//MR000179.dcm /input//MR000180.dcm /input//MR000181.dcm /input//MR000182.dcm /input//MR000183.dcm /input//MR000184.dcm /input//MR000185.dcm /input//MR000186.dcm /input//MR000187.dcm /input//MR000188.dcm /input//MR000189.dcm /input//MR000190.dcm /input//MR000191.dcm /input//MR000192.dcm /input//MR000193.dcm /input//MR000194.dcm /input//MR000195.dcm /input//MR000196.dcm /input//MR000197.dcm /input//MR000198.dcm /input//MR000199.dcm /input//MR000200.dcm /input//MR000201.dcm /input//MR000202.dcm /input//MR000203.dcm /input//MR000204.dcm /input//MR000205.dcm /input//MR000206.dcm /input//MR000207.dcm /input//MR000208.dcm /input//MR000209.dcm /input//MR000210.dcm /input//MR000211.dcm /input//MR000212.dcm /input//MR000213.dcm /input//MR000214.dcm /input//MR000215.dcm /input//MR000216.dcm /input//MR000217.dcm /input//MR000218.dcm /input//MR000219.dcm /input//MR000220.dcm /input//MR000221.dcm /input//MR000222.dcm /input//MR000223.dcm /input//MR000224.dcm /input//MR000225.dcm /input//MR000226.dcm /input//MR000227.dcm /input//MR000228.dcm /input//MR000229.dcm /input//MR000230.dcm /input//MR000231.dcm /input//MR000232.dcm /input//MR000233.dcm /input//MR000234.dcm /input//MR000235.dcm /input//MR000236.dcm /input//MR000237.dcm /input//MR000238.dcm /input//MR000239.dcm /input//MR000240.dcm /input//MR000241.dcm /input//MR000242.dcm /input//MR000243.dcm /input//MR000244.dcm /input//MR000245.dcm /input//MR000246.dcm /input//MR000247.dcm /input//MR000248.dcm /input//MR000249.dcm /input//MR000250.dcm /input//MR000251.dcm /input//MR000252.dcm /input//MR000253.dcm /input//MR000254.dcm /input//MR000255.dcm /input//MR000256.dcm /input//MR000257.dcm /input//MR000258.dcm /input//MR000259.dcm /input//MR000260.dcm /input//MR000261.dcm /input//MR000262.dcm /input//MR000263.dcm /input//MR000264.dcm /input//MR000265.dcm /input//MR000266.dcm /input//MR000267.dcm /input//MR000268.dcm /input//MR000269.dcm /input//MR000270.dcm /input//MR000271.dcm /input//MR000272.dcm /input//MR000273.dcm /input//MR000274.dcm /input//MR000275.dcm /input//MR000276.dcm /input//MR000277.dcm /input//MR000278.dcm /input//MR000279.dcm /input//MR000280.dcm /input//MR000281.dcm /input//MR000282.dcm /input//MR000283.dcm /input//MR000284.dcm /input//MR000285.dcm /input//MR000286.dcm /input//MR000287.dcm /input//MR000288.dcm /input//MR000289.dcm /input//MR000290.dcm /input//MR000291.dcm /input//MR000292.dcm /input//MR000293.dcm /input//MR000294.dcm /input//MR000295.dcm /input//MR000296.dcm /input//MR000297.dcm /input//MR000298.dcm /input//MR000299.dcm /input//MR000300.dcm</programArgument>
+          <version>BXH utilities (1.11.14)</version>
+          <timeStamp>2026-10-19 17:00:08</timeStamp>
+          <cvs>/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_utils.cpp v1.67
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dom_utils.cpp v1.41
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dicom.cpp v1.1
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dom_utils-xerces.cpp v1.4
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_signa.c v1.49
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/utils/bxhabsorb.c v1.39
+</cvs>
+          <user>(unknown)</user>
+          <machine>(unknown)</machine>
+          <platform>(unknown)</platform>
+          <platformVersion/>
+        </processStep>
+      </description>
+    </entry>
+    <entry>
+      <date>2026-10-19 17:00:09</date>
+      <description>
+Generated on 05987fd130d7 by '/home/fbirnqa/fbirnqa/bxh_xcede/bin/fmriqa_phantomqa' (BXH utilities (1.11.14)) from 1 input args: /fbirn_out/ses-64ch_func-bold_acq-cmrrme_task-tsnrxacpc.xml
+BXH utilities (1.11.14)</description>
+    </entry>
+  </history>
+</bxh>

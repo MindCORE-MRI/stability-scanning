@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<serieslevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://nbirn.net/Resources/Users/Applications/xcede/" xmlns:xcede="http://nbirn.net/Resources/Users/Applications/xcede/">
+  <subject>
+    <name>Stability_20261019</name>
+    <sex>male</sex>
+  </subject>
+  <visit>
+    <subjectVar>
+      <age agetype="postnatal" units="years">26</age>
+    </subjectVar>
+  </visit>
+  <scanner>
+    <model>AWP213018</model>
+  </scanner>
+  <expProtocol>
+    <name>ses-64ch_func-bold_acq-cmrrme_task-tsnrxacpc_SBRef</name>
+  </expProtocol>
+  <acqProtocol>
+    <name/>
+    <acqParam name="examnumber" type="integer">a0f8a673-da21-44</acqParam>
+    <acqParam name="studyid" type="varchar">Stability_20261019</acqParam>
+    <acqParam name="seriesnumber" type="integer">12</acqParam>
+    <acqParam name="runnumber" type="integer">1</acqParam>
+    <acqParam name="magneticfield" type="float">3</acqParam>
+    <acqParam name="description" type="varchar">ses-64ch_func-bold_acq-cmrrme_task-tsnrxacpc_SBRef</acqParam>
+    <acqParam name="scandate" type="varchar">2026-10-19</acqParam>
+    <acqParam name="scantime" type="varchar">11:57:33</acqParam>
+    <acqParam name="tr" type="float">1720</acqParam>
+    <acqParam name="te" type="float">13.4 37.84 62.28</acqParam>
+    <acqParam name="operator" type="varchar"/>
+    <acqParam name="flipangle" type="float">70</acqParam>
+    <acqParam name="prescribedslicespacing" type="float">2</acqParam>
+    <acqParam name="frequencydirection" type="integer">1</acqParam>
+    <acqParam name="receivecoilname" type="varchar">HeadNeck_64_CS</acqParam>
+    <acqParam name="transmitcoilname" type="varchar">Body</acqParam>
+    <acqParam name="institution" type="varchar">THE UNIVERSITY OF PENNSYLVANIA</acqParam>
+    <acqParam name="examdescription" type="varchar">ACTIVE KIRWAN</acqParam>
+    <acqParam name="scanner" type="varchar">AWP213018</acqParam>
+    <acqParam name="scannermanufacturer" type="varchar">Siemens Healthineers</acqParam>
+    <acqParam name="scannermodelname" type="varchar">MAGNETOM Cima.X</acqParam>
+    <acqParam name="protocolname" type="varchar">ses-64ch_func-bold_acq-cmrrme_task-tsnrxacpc</acqParam>
+    <acqParam name="institutionaddress" type="varchar">Grays Ferry Ave. BLDG 250 STE 140 3401,Philadelphia,69 - KEYSTONE,US,19146</acqParam>
+    <acqParam name="institutionaldepartmentname" type="varchar">MindCORE Neuroimaging Suite 140</acqParam>
+    <acqParam name="acquisitiondatetime" type="varchar">20261019115707.102500</acqParam>
+    <acqParam name="frametype" type="varchar">ORIGINAL</acqParam>
+    <acqParam name="pixelpresentation" type="varchar">MONOCHROME</acqParam>
+    <acqParam name="volumetricproperties" type="varchar">DISTORTED</acqParam>
+    <acqParam name="volumebasedcalculationtechnique" type="varchar">NONE</acqParam>
+    <acqParam name="compleximagecomponent" type="varchar">MAGNITUDE</acqParam>
+    <acqParam name="acquisitioncontrast" type="varchar">UNKNOWN</acqParam>
+    <acqParam name="mracquisitiontype" type="varchar">2D</acqParam>
+    <acqParam name="numaverages" type="varchar">1</acqParam>
+    <acqParam name="spacingbetweenslices" type="varchar">2</acqParam>
+    <acqParam name="echotrainlength" type="varchar">40</acqParam>
+    <acqParam name="percentsampling" type="varchar">100</acqParam>
+    <acqParam name="percentphasefieldofview" type="varchar">100</acqParam>
+    <acqParam name="scannerserialnumber" type="varchar">213018</acqParam>
+    <acqParam name="softwareversions" type="varchar">syngo MR XA61</acqParam>
+    <acqParam name="inplanephaseencodingdirection" type="varchar">COLUMN</acqParam>
+    <acqParam name="variableflipangleflag" type="varchar">N</acqParam>
+    <acqParam name="contentqualification" type="varchar">RESEARCH</acqParam>
+    <acqParam name="acquisitionduration" type="varchar">209.70500000000001</acqParam>
+    <acqParam name="resonantnucleus" type="varchar">1H</acqParam>
+    <acqParam name="applicablesafetystandardagency" type="varchar">IEC</acqParam>
+    <acqParam name="acquisitionnumber" type="varchar">1</acqParam>
+    <acqParam name="instancenumber" type="varchar">1</acqParam>
+    <acqParam name="numtemporalpositions" type="varchar">100</acqParam>
+    <acqParam name="imagecomments" type="varchar">Not for diagnostic use, Single-band reference SENSE1</acqParam>
+    <acqParam name="samplesperpixel" type="varchar">1</acqParam>
+    <acqParam name="photometricinterpretation" type="varchar">MONOCHROME2</acqParam>
+    <acqParam name="numberofframes" type="varchar">72</acqParam>
+    <acqParam name="rows" type="varchar">108</acqParam>
+    <acqParam name="columns" type="varchar">108</acqParam>
+    <acqParam name="bitsallocated" type="varchar">16</acqParam>
+    <acqParam name="bitsstored" type="varchar">16</acqParam>
+    <acqParam name="highbit" type="varchar">15</acqParam>
+    <acqParam name="lossyimagecompression" type="varchar">00</acqParam>
+  </acqProtocol>
+  <datarec type="image">
+    <!-- AUTOGEN: Orientation is oblique axial -->
+    <rasorigin>110 122.358 -46.5782</rasorigin>
+    <dimension type="x">
+      <size>108</size>
+      <origin>110</origin>
+      <spacing>2.03704</spacing>
+      <gap>0</gap>
+      <direction>-1 -5.50694e-09 5.23949e-08</direction>
+      <units>mm</units>
+    </dimension>
+    <dimension type="y">
+      <size>108</size>
+      <origin>122.358</origin>
+      <spacing>2.03704</spacing>
+      <gap>0</gap>
+      <direction>-5.50694e-09 -0.978148 -0.207912</direction>
+      <units>mm</units>
+    </dimension>
+    <dimension type="z">
+      <size>72</size>
+      <origin>-46.5782</origin>
+      <spacing>2.00000067750683</spacing>
+      <gap>0</gap>
+      <direction>0 -0.2079119 0.9781476</direction>
+      <units>mm</units>
+    </dimension>
+    <dimension type="te">
+      <size>3</size>
+      <origin>13.4</origin>
+      <spacing>24.44</spacing>
+      <gap>0</gap>
+      <datapoints label="te">13.4 37.84 62.28</datapoints>
+      <units>ms</units>
+    </dimension>
+    <byteorder>lsbfirst</byteorder>
+    <elementtype>uint16</elementtype>
+    <filename>/input//MR000001.dcm</filename>
+    <fileoffset>306180</fileoffset>
+    <filerecordsize>1679616</filerecordsize>
+    <filename>/input//MR000002.dcm</filename>
+    <fileoffset>306236</fileoffset>
+    <filerecordsize>1679616</filerecordsize>
+    <filename>/input//MR000003.dcm</filename>
+    <fileoffset>306218</fileoffset>
+    <filerecordsize>1679616</filerecordsize>
+  </datarec>
+  <provenance>
+    <processStep>
+      <programName>/home/fbirnqa/fbirnqa/bxh_xcede/bin/dicom2bxh</programName>
+      <programArgument>/input//MR000001.dcm /input//MR000002.dcm /input//MR000003.dcm</programArgument>
+      <version>BXH utilities (1.11.14)</version>
+      <timeStamp>2026-10-19 17:04:02</timeStamp>
+      <cvs>/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_utils.cpp v1.67
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dom_utils.cpp v1.41
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dicom.cpp v1.1
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_dom_utils-xerces.cpp v1.4
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/libsrc/bxh_signa.c v1.49
+/home/sg9/commonlibs/bxh_xcede_tools-1.11.14/utils/bxhabsorb.c v1.39
+</cvs>
+      <user>(unknown)</user>
+      <machine>(unknown)</machine>
+      <platform>(unknown)</platform>
+      <platformVersion/>
+    </processStep>
+  </provenance>
+</serieslevel>
